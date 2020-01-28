@@ -131,6 +131,7 @@ while counter < final.cart.length do
 total += finalcart[counter][:price] * finalcart[counter[:count]
   counter +=1
 end
+
 if total > 100
 total -= (total * 0.10)
 
