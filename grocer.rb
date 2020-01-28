@@ -128,7 +128,7 @@ total = 0
 counter =0
 
 while counter < final.cart.length do
-total += finalcart[counter][:price] * finalcart[counter[:count]
+total += finalcart[counter][:price] * finalcart[counter][:count]
   counter +=1
 end
 
