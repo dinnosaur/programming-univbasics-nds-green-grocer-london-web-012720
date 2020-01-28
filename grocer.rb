@@ -33,7 +33,7 @@ while counter < cart.length
     new_cart_item =
     {
       :cart => cart[counter][:item],
-      :price => cart[coutner][:price],
+      :price => cart[counter][:price],
       :clearance => cart[counter][:clearance],
       :count => 1
     }
