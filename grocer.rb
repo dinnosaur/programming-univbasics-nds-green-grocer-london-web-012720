@@ -24,7 +24,7 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
 new_cart =[]
-coutner =0
+counter =0
 while counter < cart.length
   new_cart_item = find_item_by_name_in_collection(cart[counter][:item], new_cart)
   if new_cart_item != nil
