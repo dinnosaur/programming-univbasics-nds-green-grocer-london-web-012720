@@ -99,7 +99,7 @@ def apply_clearance(cart)
 counter = 0
 while counter < cart.length
   if cart[counter][:clearance]
-cart[counter][:price] = (cart[counter][:price] * 0.8).round(2)
+cart[counter][:price] = (cart[counter][:price] - (cart[counter][:price]*0.2).round(2)
 
 
 end
@@ -128,7 +128,7 @@ clearanced_cart = apply_clearance(couponed_cart)
 total = 0
 counter =0
 
-while counter < clearanced_cart.length do
+while counter < clearanced_cart.length  do
 total += clearanced_cart[counter][:price] * clearanced_cart[counter][:count]
   counter +=1
 end
