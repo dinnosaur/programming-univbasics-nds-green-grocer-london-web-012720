@@ -129,7 +129,7 @@ total = 0
 counter =0
 
 while counter < clearanced_cart.length do
-total += finalcart[counter][:price] * finalcart[counter][:count]
+total += clearanced_cart[counter][:price] * clearanced_cart[counter][:count]
   counter +=1
 end
 
